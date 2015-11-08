@@ -10,3 +10,6 @@ export COMPUTE_PROFILE=1
 export CUDA_PROFILE_CSV=1 
 echo "CUDA_PROFILE set to: " $CUDA_PROFILE
 ./scan
+export CUDA_PROFILE=0
+export COMPUTE_PROFILE=0
+nvprof -o timeline.nvprof ./scan

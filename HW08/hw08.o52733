@@ -1,0 +1,19 @@
+CUDA_PROFILE set to:  1
+
+
+**===-------------------------------------------------===**
+Processing 16777216 elements...
+Host CPU Processing time: 78.089409 (ms)
+GPU inclusive time: 169.696487 (ms)
+Speedup: 0.460171X
+Test PASSED
+==29937== NVPROF is profiling process 29937, command: ./scan
+
+
+**===-------------------------------------------------===**
+Processing 16777216 elements...
+Host CPU Processing time: 78.476257 (ms)
+GPU inclusive time: 169.659515 (ms)
+Speedup: 0.462551X
+Test PASSED
+==29937== Generated result file: /home/szywind/me759_homework/HW08/build/timeline.nvprof
