@@ -1,0 +1,9 @@
+CUDA_PROFILE set to:  1
+
+
+**===-------------------------------------------------===**
+Processing 16777216 elements...
+Host CPU Processing time: 78.159615 (ms)
+GPU inclusive time: 169.629318 (ms)
+Speedup: 0.460767X
+Test PASSED
